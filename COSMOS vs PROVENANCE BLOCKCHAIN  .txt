@@ -1,0 +1,94 @@
+
+COSMOS ->  
+https://cosmos.network/
+https://tutorials.cosmos.network/
+
+
+
+- The Internet of Blockchains (IOB)
+- Dual-layer Blockchain Ecosystem 
+- There are currently more than 265 apps and services in the Cosmos network, including Binance Chain, Terra, Crypto , Ethereum, Bicoin.
+- Cosmos apps and services connect using IBC, the Inter-Blockchain Communication protocol. This innovation enables you to freely exchange assets and data across sovereign
+- The Cosmos SDK (opens new window)is an open-source framework for building multi-asset public Proof-of-Stake (PoS) blockchains, like the Cosmos Hub, as well
+- cosmos Hub is kind of Marketplace , Security provider , Router (to connect chains by establishing IBC connections with compatible chains and operating decentralized bridges with chains like Ethereum and Bitcoin.)
+- IBC -> Inter-Blockchain Communication Protocol -> allows independent blockchains to directly communicate and trade assets
+
+- Each individual blockchain maintain control of its own goverenance, but is interportable with other blockchains on the network. 
+  Blockchain that do not utilize BFT(Byzantine fault-tolerence) algorithm can be connected to the cosmos network via adaptor blockchains.
+  Cosmos is not designed for one perticular use case, but to be adaptable to suit many different use cases.
+
+What is Cosmos ?
+Cosmos is a project with an ambitious mission: To create a network of distributed ledgers (blockchains) that will solve long-standing problems in the cryptocurrency and blockchain communities.
+
+The Cosmos network consists of many independent, parallel blockchains, called zones, each powered by classical Byzantine fault-tolerant (BFT) consensus protocols like Tendermint. Some zones act as hubs with respect to other zones, allowing many zones to interoperate through a shared hub. The architecture is a more general application of the Bitcoin sidechains concept, using classic BFT and Proof-of-Stake algorithms, instead of Proof-of-Work.
+
+Regerences - https://www.youtube.com/watch?v=3ohaGWMYgSY
+
+
+Provenance Blockchain - 
+https://docs.provenance.io/
+https://www.provenance.io/
+
+
+- which is designed and developed to support financial service industry needs by providing a ledger, registry, and exchange across multiple financial assets and markets. The new, public, decentralized Provenance replaces the prior permissioned Provenance blockchain launched in 2018
+- The Provenance Blockchain is based on the Cosmos SDK and the Tendermint blockchain 
+
+- Tendermint -> Tendermint Core is a blockchain application platform; it provides the equivalent of a web-server, database, and supporting libraries for blockchain applications written in any programming language. Like a web-server serving web applications, Tendermint serves blockchain applications.
+
+
+cosmos 41.0
+
+- Built using Cosmos SDK/Tendermint, the new open-source Provenance reduces the need for third-party intermediation,
+  thus drastically reducing costs and freeing up capital in financial transactions
+
+--------------------------------------------------
+Git repos ->
+
+https://github.com/cosmos/cosmos-sdk
+
+https://github.com/provenance-io/provenance
+
+smart contract -
+https://docs.provenance.io/modules/provwasm-smart-contracts
+
+
+
+------------------------------------------
+
+Important Links - 
+
+Provenance Launches New Public, Decentralized Blockchain for Financial Services | Business Wire
+
+Built using Cosmos SDK/Tendermint, the new open-source Provenance reduces the need for third-party intermediation, thus drastically reducing costs and freeing up capital in financial transactions.
+
+https://docs.cosmos.network/master/intro/sdk-app-architecture.html#abci
+
+https://docs.cosmos.network/master/intro/sdk-design.html
+
+https://docs.cosmos.network/master/intro/overview.html  
+
+
+CosmWasm - 
+
+CosmWasm is written as a module that can plug into the Cosmos SDK. This means that anyone currently building a blockchain using the Cosmos SDK can quickly and easily add CosmWasm smart contracting support to their chain
+
+
+ProvWasm
+Smart Contracts
+Web assembly (Wasm) smart contracts for the Provenance Blockchain.
+
+The CosmWasm VM only integrates with the banking and staking modules by default. However, it allows for adding custom encoders and queriers.
+A package was added in the Provenance Blockchain that contain extensions for the following Provenance Blockchain modules:
+Account
+Marker
+Name
+Metadata - NOTE: Not yet implemented
+These extensions are compiled into the blockchain at build time.
+
+
+
+
+
+
+
+
